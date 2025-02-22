@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+body{
+    background-image: url(vamsi.jpg);
+    background-size: cover;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 7%;
+}
+.navbar .active{
+    color:#00abf0;
+}
+
+.navbar .logo{
+font-size:xx-large;
+font-weight:600;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left:40px; 
+    font-size:20px;
+    font-weight:600;
+    margin-top:15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    transition:2s;
+}
+
+.navbar ul li:hover a {
+    color: #00abf0;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 10px 15% 0;
+    color: white;
+}
+
+.main-info h1{
+    font-size:45px;
+}
+
+.main-info h3{
+    font-size:30px ;
+    color: #00abf0;
+}
+.main-info p{
+    font-size:20px;
+}
+
+.main-info .icons a {
+    display: inline-flex;
+    margin-left:15px;
+    border:2px solid  #00abf0;
+    border-radius: 50%;
+    font-size:15px;
+    color:  #00abf0; 
+    margin: 0 8px;
+    padding:7px;
+    transition:.5s;
+}
+
+.main-info .icons a:hover{
+    background-color:  #00abf0;
+    color:black;
+    box-shadow: 0 0 10px  #00abf0;
+}
+
